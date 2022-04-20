@@ -1,0 +1,46 @@
+.card {
+    border-radius: 16px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    margin-top: 40px;
+    width: 310px;   
+    transition: all 0.3s ease-out;
+  }
+  
+.card:hover {
+    transform: translateY(5px);
+    cursor: pointer;
+}
+
+.cardImg {
+    align-content: center;
+    max-width: 300px;
+    max-height: 200px;
+    border-radius: 14px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+.card .name{
+    color: #6D8280;
+    font-size: 22px;
+}
+
+.card .skill{
+    color: #1FE3C7;
+    font-size: 20px;
+}
+
+.card .value{
+    color: #6FBEDA;
+    font-size: 20px;  
+}
+
+.card .match{
+    color: #AEBBBA;
+    font-size: 20px;
+}
+
+.card .date{
+    color: #20E966;
+    font-size:20px;
+} 

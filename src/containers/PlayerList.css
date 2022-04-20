@@ -1,0 +1,19 @@
+
+.playerList {
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.searchbox{
+    margin-top: 20px;
+    height: 50px;
+    width: 40%;
+    outline: none;
+    border-radius: 16px;
+    border: 1px solid lightblue;
+    text-align: center;
+    color: grey;
+    font-size: 25px;
+}
